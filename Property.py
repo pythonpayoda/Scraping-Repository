@@ -1,0 +1,22 @@
+class PropertyFile:
+    all_range=[]
+    all_range_links=[]
+    url_data=[]
+    choice=0
+    particular_year=0
+    year=['1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012']
+    dict1={1:'1998 - 1996',2:'2004 - 1999',3:'2010 - 2005',4:'2015 - 2011'}
+    topic_list=[]
+    letter_no=[]
+    href_list=[]
+    category_list=[]
+    year_list=[]
+    topic_list_sep=[]
+    date_list=[]
+    year_num=0
+    year_charac=['\r\t\t\t\t\t\t\t\t\t','\r\n\t\t\t\t\t\t\t\t\t']
+    topic_charac=['\r\n','\t','\r\n\t\t\t\t\t\t\t\t\t\t\t\t']
+    category_charac=['\r\n\r\n','\n','\r\n\t\t\t\t\t\t\t\t\t\t','\n\n\n','\n\n\n\n','\r\t\t\t\t\t\t\t\t\t\t']
+    href_charac=['\r\n']
+    url_path='http://www.occ.gov'
+    category=['Interpretive Letters','Corporate Decisions','Approvals with conditions enforceable under 12 U.S.C. 1818','CRA Decisions','No-Objection Letters','Community Development Investment Letters']
